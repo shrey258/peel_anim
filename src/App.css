@@ -30,11 +30,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
   clip-path: inset(0 0 0 0);
-  transition: clip-path 3s linear;
-}
-
-.card:hover .card-overlay {
-  clip-path: inset(100% 0 0 100%);
+  pointer-events: none;
 }
